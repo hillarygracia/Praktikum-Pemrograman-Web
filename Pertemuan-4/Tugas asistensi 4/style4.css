@@ -1,0 +1,75 @@
+/* Mengatur margin dan padding seluruh elemen menjadi nol untuk konsistensi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur gaya untuk body */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Mengatur heading utama (h1) */
+h1 {
+    text-align: center;
+    color: #2a2a72;
+    margin-bottom: 20px;
+}
+
+/* Mengatur heading kedua (h2) */
+h2 {
+    color: #444;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #2a2a72;
+    display: inline-block;
+}
+
+/* Mengatur heading ketiga (h3) */
+h3 {
+    font-size: 18px;
+    color: #2a2a72;
+    margin-bottom: 10px;
+}
+
+/* Mengatur paragraf (p) */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Gaya untuk gambar */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: #2a2a72;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #444;
+    color: #f4f4f9;
+}
