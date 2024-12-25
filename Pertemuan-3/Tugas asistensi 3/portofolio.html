@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: lightblue;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: lightskyblue;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: lavender;
+            color: #333;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background-color: aliceblue;
+            color: #333;
+            display: flex;
+            align-items: left;
+            gap: 300px;
+            text-align: center;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .about-content {
+            max-width: 600px;
+        }
+
+        .about h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: azure;
+        }
+
+        .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .skill-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px 20px;
+            background-color: lavender;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+
+        /* Footer */
+        footer {
+            background-color: lightblue;
+            color: #333;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I’m Hillary Gracia, a passionate developer.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <img src="hillarygracia.jpeg" alt="Profile Picture">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am a developer with a focus on web development. I have experience in various programming languages and frameworks, and I am always eager to learn new skills and take on challenges.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">PHP</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 hillarygracia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
